@@ -7,7 +7,17 @@ This is a simple Go example package.
 To install the package, run:
 
 ```bash
-go get github.com/inksha/go-example
+go get github.com/username/go-example
+```
+
+### Installation Commandline Tool
+
+```bash
+go install github.com/username/go-example/cmd/go-example
+
+go-example
+# output:
+# current working directory:  /path/to/your/current/directory
 ```
 
 ## Usage
@@ -16,10 +26,10 @@ go get github.com/inksha/go-example
 package main
 
 import (
-  example "github.com/inksha/go-example/example"
+  print "github.com/username/go-example/print"
 )
 
 func main() {
-  example.ExamplePrint("hello world", 3)
+  print.ExamplePrint("hello world", 3)
 }
 ```
