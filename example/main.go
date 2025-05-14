@@ -1,9 +1,9 @@
 package main
 
 import (
-	example "github.com/inksha/go-example/example"
+	print "github.com/inksha/go-example/print"
 )
 
 func main() {
-	example.ExamplePrint("hello world", 3)
+	print.ExamplePrint("hello world", 3)
 }
